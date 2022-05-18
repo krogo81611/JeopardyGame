@@ -16,7 +16,7 @@ function initCatRow() {
 function initBoard() {
     let board = document.getElementById('clue-board')
 
-    //Generate 5 Rows, then place 6 boxes in each row.
+    //Generate 5 Rows, then place 6 boxes in each row. Append to board
 
     for (let i = 0; i<5; i++) {
         let row = document.createElement('div');
